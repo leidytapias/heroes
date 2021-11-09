@@ -1,0 +1,63 @@
+* {
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #00669f;
+}
+
+.descuento {
+  background-color: #1cd1b0;
+  
+}
+
+main {
+  padding: 16px;
+}
+
+.imagen-redonda-heroe {
+  border: solid 1px gray;
+  border-radius: 100%;
+  position: relative;
+  bottom: 0px;
+}
+
+.heroe {
+   width: 300px; 
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color:rgb(255, 251, 251);
+
+}
+
+.heroe > .imagen-redonda-heroe {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+h2 {
+  margin-top: 48px;
+}
+
+.ver-mas {
+  padding: 16px;
+  margin: 32px 0;
+  background-color:#00669f;
+  color:white;
+}
+
+
+.heroe > p {
+  text-align: left;
+}
+
+footer {
+  background-color: #00669f;
+  text-align: center;
+  color:white;
+}

@@ -1,5 +1,5 @@
 * {
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,14 +15,24 @@ header {
 }
 
 main {
-  padding: 16px;
+  text-align: center;
 }
 
 .imagen-redonda-heroe {
   border: solid 1px gray;
   border-radius: 100%;
   position: relative;
-  bottom: 0px;
+  bottom: 0;
+}
+.fas{
+  color:#CC2424;
+  position: absolute;
+  left: 0%;
+  right: 75%;
+  top: 3%;
+  bottom: 50%;
+  font-size:30px;
+
 }
 
 .heroe {
@@ -31,17 +41,22 @@ main {
   display: inline-block;
   text-align: center;
   background-color:rgb(255, 251, 251);
+  margin: 24px;
+  border-style: hidden;
 
 }
 
 .heroe > .imagen-redonda-heroe {
   position: absolute;
   top: 25%;
-  left: 25%;
+  left: 30%;
+ 
 }
 
 h2 {
-  margin-top: 48px;
+  margin-top: 63px;
+  margin-bottom: 24px;
+ 
 }
 
 .ver-mas {
@@ -49,15 +64,16 @@ h2 {
   margin: 32px 0;
   background-color:#00669f;
   color:white;
-}
+  margin-bottom: 70px;
 
+}
 
 .heroe > p {
   text-align: left;
+  
 }
 
 footer {
   background-color: #00669f;
-  text-align: center;
   color:white;
 }
